@@ -11,9 +11,10 @@ Original file is located at
 #drive.mount('/content/drive')
 
 #!pip install streamlit
-pip install tensorflow
 
 import streamlit as st
+import tensorflow as tf
+
 from tensorflow.keras.models import Sequential, model_from_yaml
 from tensorflow.keras.models import Sequential, model_from_json
 from tensorflow.keras.layers import Dense
