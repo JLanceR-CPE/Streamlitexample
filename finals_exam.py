@@ -11,6 +11,7 @@ Original file is located at
 #drive.mount('/content/drive')
 
 #!pip install streamlit
+@st.cache(allow_output_mutation=True)
 
 import streamlit as st
 import tensorflow as tf
